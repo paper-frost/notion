@@ -30,14 +30,14 @@ table {
     table-layout: fixed;
     position: absolute;
     background-color: #fff;
-    border: 2px solid #777777;
-    box-shadow: 2px 2px 1px 0px #777777;
+    border: 2px solid #F6F3F8;
+    box-shadow: 2px 2px 1px 0px #F6F3F8;
     border-radius: 5px;
 }
 
 .month{
-    background-color: #777777;
-    color: #ffffff;
+    background-color: #F6F3F8;
+    color: #5e5e5e;
     font-size: 1.5em;
 }
 .year {
@@ -45,11 +45,12 @@ table {
     font-weight: normal;
     display: block;
     text-shadow: none;
-    color: #fff;
+    color: #5e5e5e;
 }
 
 .day-header{
-    background-color: #EDE5FF;
+    background-color: #E6EEF4;
+	color: rgb(94, 94, 94);
 }
 
 td,th {
@@ -58,7 +59,7 @@ td,th {
 }
 th {
     padding: 10px;
-    /* background-color: #777777;
+    /* background-color: #F6F3F8;
     color: #fff; */
     /* font-weight: normal; */
 }
@@ -68,10 +69,10 @@ th {
 
 td {
     padding: 0;
-    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-bottom: 1px solid hex(#F6F3F8);
 }
 td>span {
-    color: rgb(0, 0, 0);
+    color: rgb(94, 94, 94);
     padding: 10px;
     display: block;
     border: 2px solid transparent;
@@ -81,8 +82,8 @@ td>span {
 
 td.avui>span {
     font-weight: bold;
-    background-color: #777777;
-    color: #ffffff;
+    background-color: #F6F3F8;
+    color: #5e5e5e;
 }
 td.fora > span {
     opacity: 0.2;
@@ -90,8 +91,8 @@ td.fora > span {
 
 
 .boto-next, .boto-prev {
-    background: #777777;
-    color: #fff;
+    background: #F6F3F8;
+    color: #5e5e5e;
     font-family: inherit;
     border: none;
     font-size: 25px;
